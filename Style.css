@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Russo+One&display=swap');
+
+.ourteam{
+	background: #f5f5f5;
+}
+
+.ourteam_wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.ourteam_wrapper .team{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ourteam_wrapper .team-1.team{
+	margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_members{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+
+.ourteam_wrapper .team_members img{
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_members:hover img{
+	transform: scale(1.1);
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding: 20px 0;
+}
+
+.footer a{
+	color: #fff;
+}
+
+@media (max-width: 720px){
+
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar_items ul li{
+		margin-bottom:5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+	}
+
+}
+
+.arrow{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: #fb2274;
+	border-radius: 50%;
+}
+
+.arrow img{
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+}
